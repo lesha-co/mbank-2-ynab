@@ -1,0 +1,19 @@
+parameters: {}
+environment: {}
+packages:
+  - name: mbank2ynab
+    shared: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    functions:
+      - name: export
+        binary: false
+        main: ""
+        runtime: python:default
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
